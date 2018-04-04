@@ -1,0 +1,24 @@
+section {
+	padding: 1rem 0;
+}
+
+
+.subheading::after,.subheading::before {
+	content: "";
+	width: 2rem;
+	/* width: 100%; */
+	display: inline-block;
+	border-top: 1px solid #000;
+	margin: 0 1rem .5rem;
+}
+
+p {
+	text-align: justify;
+}
+
+@media {
+	.subheading {
+		font-size: 1.4rem;
+	}
+	
+}
