@@ -27,7 +27,7 @@ p {
 #projects tr>td:nth-child(1),
 #projects tr>th:nth-child(1) {
 	width: 30%;
-}	
+}
 
 #projects tr>td:nth-child(2),
 #projects tr>th:nth-child(2) {
@@ -35,15 +35,12 @@ p {
 }
 
 @media print {
-
 	#projects tr>td:nth-child(2),
 	#projects tr>th:nth-child(2) {
 		display: table-cell;
 	}
-
 	.skill-img {
 		width: 50%;
-		margin: auto;	
+		margin: auto;
 	}
-
 }
