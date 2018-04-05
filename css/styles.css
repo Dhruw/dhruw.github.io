@@ -2,8 +2,12 @@ section {
 	padding: 1rem 0;
 }
 
+p {
+	text-align: justify;
+}
 
-.subheading::after,.subheading::before {
+.subheading::after,
+.subheading::before {
 	content: "";
 	width: 2rem;
 	/* width: 100%; */
@@ -12,13 +16,34 @@ section {
 	margin: 0 1rem .5rem;
 }
 
-p {
-	text-align: justify;
+.section-title {
+	padding-bottom: 1rem;
 }
 
-@media {
-	.subheading {
-		font-size: 1.4rem;
+.subheading {
+	font-size: 1.4rem;
+}
+
+#projects tr>td:nth-child(1),
+#projects tr>th:nth-child(1) {
+	width: 30%;
+}	
+
+#projects tr>td:nth-child(2),
+#projects tr>th:nth-child(2) {
+	display: none;
+}
+
+@media print {
+
+	#projects tr>td:nth-child(2),
+	#projects tr>th:nth-child(2) {
+		display: table-cell;
 	}
-	
+
+	.skill-img {
+		width: 50%;
+		margin: auto;	
+	}
+
 }
