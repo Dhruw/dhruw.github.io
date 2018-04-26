@@ -34,6 +34,10 @@ p {
 	display: none;
 }
 
+.vvisible_print_inline {
+	display: none;
+}
+
 @media print {
 	#projects tr>td:nth-child(2),
 	#projects tr>th:nth-child(2) {
@@ -42,5 +46,8 @@ p {
 	.skill-img {
 		width: 50%;
 		margin: auto;
+	}
+	.visible_print_inline {
+		display: inline;
 	}
 }
